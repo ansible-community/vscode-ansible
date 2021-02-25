@@ -1,9 +1,12 @@
 name: release
 
 on:
-    push:
-        tags:
-          - "v*"
+  create:
+    tags:
+      - "v*"
+  push:
+    tags:
+      - "v*"
 
 jobs:
  build:
